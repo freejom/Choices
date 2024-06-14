@@ -126,7 +126,7 @@ $choices-icon-cross-inverse: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiI
     position: relative;
     display: inline-block;
     margin-top: 0;
-    margin-right: math.div(-$choices-button-offset, 2);
+    margin-right: calc(-1 * $choices-button-offset / 2);
     margin-bottom: 0;
     margin-left: $choices-button-offset;
     padding-left: $choices-button-offset * 2;
